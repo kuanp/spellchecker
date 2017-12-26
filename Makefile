@@ -1,7 +1,8 @@
-CC=gcc
-CFLAGS=-I
+CC=g++
 
-spellcheck: spellcheck.o
-	$(CC) -o spellcheck spellcheck.o $(CFLASGS)
-	#$(CC) -o spellcheck spellcheck.o spellchecker.o $(CFLASGS)
+spellcheck: spellcheck.o spellchecker.o
+	$(CC) -o spellcheck spellcheck.o spellchecker.o $(CFLASGS)
 
+clean:
+	rm *.o
+	rm spellcheck

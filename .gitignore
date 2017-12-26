@@ -1,0 +1,8 @@
+# ignores files w/o extension
+# Note: this must come first in gitignore
+*
+!*/
+!*.*
+
+# ignores .o files
+*.o
