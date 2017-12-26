@@ -1,6 +1,6 @@
 # Spellchecker : A C++ introduction project
-##Key concepts to be covered:
-1. How use STL libraries, compile sourcefiles into executables, write tests
+Key concepts to be covered:
+1. How use STL data structures, compile sourcefiles into executables, write tests
 2. How to write classes, implement data structures with pointers
 3. Practice advanced pointer mechanics, maybe templatization in C++.
 
