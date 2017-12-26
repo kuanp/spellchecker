@@ -5,4 +5,3 @@
 3. Practice advanced pointer mechanics, maybe templatization in C++.
 
 For detail, see: https://docs.google.com/document/d/1KpSqnDshk-xzgbqK8JDZ1Dulx2mXhQhx550WzY9_7IE/edit?usp=sharing
-
