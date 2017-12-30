@@ -1,8 +1,8 @@
 CC=g++
 
-spellcheck: spellcheck.o spellchecker.o
-	$(CC) -o spellcheck spellcheck.o spellchecker.o $(CFLASGS)
+run_spellcheck: run_spellcheck.o fakechecker.o mychecker.o
+	$(CC) -o run_spellcheck run_spellcheck.o fakechecker.o mychecker.o
 
 clean:
 	rm *.o
-	rm spellcheck
+	rm run_spellcheck
