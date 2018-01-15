@@ -4,7 +4,8 @@
 using namespace std;
 
 // implements spellChecker class
-class FakeSpellChecker : public SpellChecker {
+class FakeSpellChecker : public SpellCheckerInterface
+{
     public:
         // constructor
         FakeSpellChecker(string pathToDictionary);
