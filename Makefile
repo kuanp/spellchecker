@@ -7,7 +7,7 @@ else
 endif
 
 # sets flags for compileation
-CFLAGS += -std=c++11 -stdlib=libc++ -O2
+CFLAGS += -std=c++11 -O2
 
 # sets default compilation (used by compiler to make .o files)
 CXX = $(CC)
