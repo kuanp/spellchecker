@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>  // for cout, the print func
 
 #include "mychecker.h"
 using namespace std;

@@ -6,6 +6,7 @@ using namespace std;
 
 FakeSpellChecker::FakeSpellChecker(string pathToDictionary) {
     pathToDict = pathToDictionary;
+    cout << "This is a fake, stub spell checker to be replaced by you! \n";
     cout << "path given is \"" << pathToDict << "\"\n";
 }
 

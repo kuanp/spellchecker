@@ -1,5 +1,4 @@
 #include <iostream>
-#include "spellchecker.h"
 #include "fakechecker.h"
 #include "mychecker.h"
 using namespace std;

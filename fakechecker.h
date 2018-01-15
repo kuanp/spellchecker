@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include "spellchecker.h"
+#include "spellchecker_interface.h"
 using namespace std;
 
 // implements spellChecker class
